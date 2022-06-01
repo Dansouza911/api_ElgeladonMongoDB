@@ -1,0 +1,29 @@
+{
+  "name": "api_elgeladonmongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dansouza911/api_ElgeladonMongoDB.git"
+  },
+  "author": "Darlan Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dansouza911/api_ElgeladonMongoDB/issues"
+  },
+  "homepage": "https://github.com/Dansouza911/api_ElgeladonMongoDB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "sucrase": "^3.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
