@@ -1,9 +1,11 @@
+import 'dotenv/config';
 import app from './app';
 import { conectarAoDataBase } from './src/database';
 
-const port = 3000;
 
-app.listen(port, () => {
+
+app.listen(process.env.PORT, () => {
   conectarAoDataBase();
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor rodando em http://localhost:${process.env.PORT}`);
+  
 });

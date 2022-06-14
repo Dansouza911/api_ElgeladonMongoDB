@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const { connect } = mongoose;
 
 export const conectarAoDataBase = () => {
-  connect('mongodb://localhost:27017/elgeladon_db', {
+  connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
