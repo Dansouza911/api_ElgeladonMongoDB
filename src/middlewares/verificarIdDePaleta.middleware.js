@@ -1,4 +1,4 @@
-import PaletasDB from '../models/paletas.model';
+import PaletasDB from '../models/paletas.model.js';
 import mongoose from 'mongoose';
 
 const verificarIdDePaletaMiddleware = (req, res, next) => {

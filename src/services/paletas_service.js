@@ -1,4 +1,4 @@
-import PaletasDB from '../models/paletas.model';
+import PaletasDB from '../models/paletas.model.js';
 
 class PaletasServices {
   async findAllPaletasService() {

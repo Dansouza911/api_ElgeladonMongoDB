@@ -1,4 +1,4 @@
-import PaletasServices from '../services/paletas_service';
+import PaletasServices from '../services/paletas_service.js';
 
 const paletasServices = new PaletasServices();
 

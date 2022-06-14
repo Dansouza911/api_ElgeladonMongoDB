@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import route from './src/routes/paletas_route'
+import route from './src/routes/paletas_route.js'
 const app = express();
 
 app.use(express.json());

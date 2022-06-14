@@ -1,11 +1,10 @@
 import 'dotenv/config';
-import app from './app';
-import { conectarAoDataBase } from './src/database';
+import app from './app.js';
+import { conectarAoDataBase } from './src/database/index.js';
 
 
 
 app.listen(process.env.PORT, () => {
   conectarAoDataBase();
-  console.log(`Servidor rodando em http://localhost:${process.env.PORT}`);
-  
+   
 });

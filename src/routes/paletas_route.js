@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import PaletasController from '../controllers/paletas_controller';
-import verificarIdDePaletaMiddleware from '../middlewares/verificarIdDePaleta.middleware';
-import verificadorDePaletaMiddleware from '../middlewares/verificarDadosDePaleta.middleware';
+import PaletasController from '../controllers/paletas_controller.js';
+import verificarIdDePaletaMiddleware from '../middlewares/verificarIdDePaleta.middleware.js';
+import verificadorDePaletaMiddleware from '../middlewares/verificarDadosDePaleta.middleware.js';
 
 const paletasController = new PaletasController();
 const route = Router();
